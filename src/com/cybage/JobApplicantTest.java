@@ -8,6 +8,11 @@ public class JobApplicantTest {
 
 	private static EntityManager em;
 
+	JobApplicantTest()
+	{}
+
+	
+
     public static void main(String[] args) {
 
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("JobPortalDBConnection");

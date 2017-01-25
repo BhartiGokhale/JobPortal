@@ -30,7 +30,7 @@ public class JobApplicant {
 
 	 //default constructor
 	 public JobApplicant() {
-			
+		//this is default constructor 	
 		
 		}
 	 

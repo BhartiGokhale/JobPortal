@@ -19,7 +19,7 @@ public class ApplicantController {
 	public String success(@ModelAttribute("SpringWeb")Applicant a1, 
 			ModelMap model) {
 
-		System.out.println("user name="+a1.getName());
+		
 		model.addAttribute("success", "Successfully added details");
 		return "success";
 
